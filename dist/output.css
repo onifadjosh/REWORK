@@ -559,12 +559,36 @@ video {
   position: relative;
 }
 
-.flex {
-  display: flex;
+.top-0 {
+  top: 0px;
 }
 
-.table {
-  display: table;
+.top-3 {
+  top: 0.75rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.-top-4 {
+  top: -1rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.top-8 {
+  top: 2rem;
+}
+
+.flex {
+  display: flex;
 }
 
 .grid {
@@ -593,10 +617,6 @@ video {
 
 .w-1\/2 {
   width: 50%;
-}
-
-.w-1 {
-  width: 0.25rem;
 }
 
 .max-w-\[20\%\] {
@@ -667,12 +687,12 @@ video {
   gap: 1.5rem;
 }
 
-.gap-7 {
-  gap: 1.75rem;
-}
-
 .gap-1 {
   gap: 0.25rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
 }
 
 .scroll-smooth {
@@ -757,24 +777,24 @@ video {
   background-image: url('./images/hero1.jpg');
 }
 
-.bg-signin {
-  background-image: url('./images/signin.jpg');
-}
-
 .bg-progress {
   background-image: url('./images/progress.jpg');
+}
+
+.bg-signin {
+  background-image: url('./images/signin.jpg');
 }
 
 .bg-cover {
   background-size: cover;
 }
 
-.bg-top {
-  background-position: top;
-}
-
 .bg-center {
   background-position: center;
+}
+
+.bg-top {
+  background-position: top;
 }
 
 .p-4 {
@@ -963,8 +983,8 @@ video {
     background-color:  #FFFFFF;
     z-index: 10;
     position: fixed;
-    right: 0%;
-    top: 5%;
+    right: 5%;
+    top: 10%;
   }
 
   .hamburger.active .bar:nth-child(2){
