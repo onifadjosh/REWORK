@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="src/input.css">
+    <script src="https://kit.fontawesome.com/54e86b48e4.js" crossorigin="anonymous"></script>
+    <title>REWORK SIGN IN</title>
+</head>
+<body>
+    <header class="h-[100vh] flex flex-col bg-signin bg-cover bg-center">
+        <nav class=" bg-primcol flex justify-between items-center w-full px-5 lg:px-24 text-primcol md:text-white shadow-md drop-shadow-xl   shadow-black py-5">
+            <div>
+                <h1 class="text-white font-bold text-lg md:text-2xl">REWORK</h1>
+            </div>
+            
+            <!-- <div class="hamburger md:hidden">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div> -->
+        </nav>
+
+
+       <div class="flex justify-center items-center h-full px-5 lg:px-24">
+            <div class="h-3/4 w-full md:w-1/2 bg-white flex flex-col justify-center items-center">
+                <h1 class="text-lg md:text-3xl lg:text-5xl font-semibold pb-4 text-primcol">
+                    Sign In
+                </h1> 
+                <div class="flex gap-5">
+                    <a href="http://"><i class="fa-brands fa-facebook-f border border-primcol rounded-3xl p-4"></i></a>
+                    <a href="http://"><i class="fa-brands fa-google border border-primcol rounded-3xl p-4"></i></a>
+                    <a href="http://"><i class="fa-brands fa-linkedin-in border border-primcol rounded-3xl p-4"></i></a>
+                </div>
+
+                <p class="test-xs">
+                    or use your account
+                </p>
+
+                <form action="user.html"  class="flex flex-col justify-center items-center gap-5">
+                    <input type="email" name="Email" id="email" placeholder="Email" class="shadow-md hover:shadow-primcol  drop-shadow-sm outline-none border border-primcol  md:w-56 ease-in-out duration-300 placeholder:text-primcol placeholder:text-sm placeholder:p-1">
+                    <input type="password" name="password" id="password" placeholder="Password" class="shadow-md hover:shadow-primcol drop-shadow-sm outline-none border border-primcol md:w-56 ease-in-out duration-300 placeholder:text-primcol placeholder:text-sm placeholder:p-1">
+                    <a href="#" class="text-sm text-primcol cursor-pointer">Forgot Your Password?</a>
+                    <input type="submit" value="Sign In" class="bg-primcol border border-primcol text-white rounded-3xl px-10 py-2 hover:bg-transparent hover:text-primcol">
+                    
+                </form>
+            </div>
+ 
+            <div class="hidden h-3/4 w-1/2 bg-primcol text-center md:flex flex-col justify-center items-center gap-5 text-white">
+                <h1 class="text-lg md:text-3xl lg:text-5xl font-semibold pb-4">
+                    Hello, User!
+                </h1> 
+                <p class="text-xs md:text-sm">
+                    Enter your details and start your journey with us
+                </p>
+                <!-- <div>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                </div> -->
+                <a href="/user.html" class="border border-white rounded-3xl px-10 py-2">Sign Up</a>
+            </div>
+       </div>
+    </header>
+
+    <section class="bg-primcol text-white lg:px-24 px-3 flex  flex-col">
+        <div class="flex flex-col  md:flex-row items-start justify-between py-20">
+
+            <div class="flex items-center gap-3 pb-4">
+                <!-- <img src="dist/images/Logo.jpg" alt="Logo" srcset=""> -->
+                <h1 class="text-white font-bold text-lg md:text-2xl">REWORK</h1>
+            </div>
+    
+            <div class="pb-8">
+                <h3 class="text-lg font-semibold py-2">Quick Link</h3>
+                <ul class="text-xs flex flex-col gap-4">
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Home</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Products</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">About</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Features</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">About</a></li>
+                </ul>
+            </div>
+    
+            <div class="pb-8">
+                <h3 class="text-lg font-semibold py-2">Product</h3>
+                <ul class="text-xs flex flex-col gap-4">
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Tour</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Solutions</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Industries</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Pricing</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Interest</a></li>
+                </ul>
+            </div>
+
+            <div class="pb-8">
+                <h3 class="text-lg font-semibold py-2">Resources</h3>
+                <ul class="text-xs flex flex-col gap-4">
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Training research</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Microlearning guide</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Customer stories</a></li>
+                    <!-- <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Pricing</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Interest</a></li> -->
+                </ul>
+            </div>
+
+            <div class="pb-8">
+                <h3 class="text-lg font-semibold py-2">Company</h3>
+                <ul class="text-xs flex flex-col gap-4">
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">About us</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Affiliates</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Contact us</a></li>
+                    <!-- <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Pricing</a></li>
+                    <li class="hover:cursor-pointer hover:text-seccol"><a href="#">Interest</a></li> -->
+                </ul>
+            </div>
+
+            
+    
+            <!-- <div class="">
+                <h1 class="text-lg font-semibold lg:text-xl lg:font-bold py-2">
+                    We accept following <br>
+                    payment systems
+                </h1>
+    
+                <div class="flex gap-2 ">
+                    <img src="dist/images/Visa.png" class="max-w-[20%] md:max-w-[100%]" alt="" srcset="">
+                    <img src="dist/images/Mastercard.png" class="max-w-[20%] md:max-w-[100%]" alt="" srcset="">
+                    <img src="dist/images/Visa.png" class="max-w-[20%] md:max-w-[100%]" alt="" srcset="">
+                </div>
+            </div> -->
+        </div>
+
+        <div class="flex justify-between flex-wrap-reverse gap-3 py-6">
+            <p class="text-xs">©2022 REWORK. All rights reserved <br>cooked with love by "codesbypampam"</p>
+            <div class="flex gap-6">
+                <i class="fa-brands fa-facebook-f hover:cursor-pointer hover:text-seccol"></i>
+                <i class="fa-brands fa-instagram hover:cursor-pointer hover:text-seccol"></i>
+                <i class="fa-brands fa-youtube hover:cursor-pointer hover:text-seccol"></i>
+                <i class="fa-brands fa-twitter hover:cursor-pointer hover:text-seccol"></i>
+                <i class="fa-brands fa-linkedin hover:cursor-pointer hover:text-seccol"></i>
+            </div>
+        </div>
+        
+    </section>
+</body>
+</html>
